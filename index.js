@@ -18,7 +18,7 @@ const app = http.createServer((req, res) => {
   res.write(`<h1>Oops!</h1>
     <p>Page Not Found </p>
     <small>Sorry! you can try some other time
-    <a href="/">back home</a>`);
+    <a href="/">Back Home</a>`);
 });
 
 app.listen(port, () => {
